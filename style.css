@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    overflow: auto;
+  }
+
+/* NAVBAR */
+.navbar {
+    padding:15px;
+    background-color: #e4f3f0;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(31, 45, 77);
+    font-family: "Times New Roman";
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: rgb(46, 46, 58) ;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 350;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover {
+    font-weight: bold;
+ }
+
+/* HOME PAGE */
+#home {
+    min-height: 100vh; 
+    padding-left:20px;
+    padding-right: 450px;
+    background: url(./assets/home.jpeg);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 240px;
+    font-size: 25px;
+    align-items: flex-start;
+}
+
+#content {
+    padding: 20px;
+    float: left;
+    width: 70%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+    text-align: center;
+ }
+
+ .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.featured-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 500px;
+ }
+
+ /* ASIDE */
+ aside {
+    float: right;
+    width: 30%;
+    padding: 20px;
+  }
+ 
+.profile img {
+    width: 200px;
+ }
+
+img {
+    max-width: 100%;
+}
+
+.profile header {
+    text-align: center;
+ }
+
+.profile table {
+    text-align: justify;
+ }
+
+/* FOOTER  */
+ footer {
+    padding: 35px;
+    color: rgb(31, 45, 77);
+    background-color: #d6ebe6 ;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }

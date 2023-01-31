@@ -1,0 +1,28 @@
+[
+    {
+    "id": 1,
+    "username": "EvanLathi",
+    "password": "password1",
+    "role": "PC Gamer",
+    "quote": "“One of my gaming highlights of the year.”",
+    "date": "October 18, 2018"
+    },
+
+    {
+        "id": 2,
+        "username": "JadaGriffin",
+        "password": "password2",
+        "role": "Nerdreactor",
+        "quote": "“The next big thing in the world of streaming and survival games.”",
+        "date": "December 21, 2018"
+    },
+
+    {
+        "id": 3,
+        "username": "AaronWilliams",
+        "password": "password3",
+        "role": "Uproxx",
+        "quote": "“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”",
+        "date": "December 24, 2018"
+        }
+]
